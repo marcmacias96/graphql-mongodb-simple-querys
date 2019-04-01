@@ -1,4 +1,8 @@
 export default `
+  type Subscription {
+    cars : Car
+  }
+
   type Car {
     _id: String!
     name: String!
